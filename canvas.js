@@ -20,3 +20,10 @@ function drawCollage(num) {
 }
 
 drawCollage(13);
+
+//----------------------------------------------------------------
+
+c.beginPath();
+c.moveTo(100, 200);
+c.lineTo(120, 400);
+c.stroke();
