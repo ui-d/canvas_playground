@@ -26,4 +26,8 @@ drawCollage(13);
 c.beginPath();
 c.moveTo(100, 200);
 c.lineTo(120, 400);
+c.lineTo(220, 120);
+c.lineTo(30, 100);
+c.lineTo(140, 220);
+c.strokeStyle = "rgba(100, 100, 0)";
 c.stroke();
