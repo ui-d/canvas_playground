@@ -17,3 +17,13 @@ c.lineTo(500, 90);
 c.lineWidth = 5;
 c.strokeStyle = "white";
 c.stroke();
+
+function Path() {
+  this.draw = function () {};
+
+  this.update = function () {
+    this.draw();
+  };
+}
+
+new Path();
